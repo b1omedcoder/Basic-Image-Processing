@@ -26,8 +26,7 @@ def IsolateBone(hf_array):
     for row in range(arr.shape[0]):
         for col in range(arr.shape[1]):
             hu_unit = arr[row, col]
-```
-## 
+
             if (hu_unit < 1000) and (hu_unit > 300): 
                  hf_array[row,col] += 150
                  if (arr[row, col] < hf_max):
